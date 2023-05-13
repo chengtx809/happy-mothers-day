@@ -1,0 +1,98 @@
+@import url('./ZCOOLKuaiLe-Regular.ttf');
+
+body{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  color:white;
+  font-family: 'ZCOOLKuaiLe-Regular', sans-serif;
+  font-weight:100;
+}
+h1{
+  font-size:4em;
+  text-align:center;
+  font-family:"ZCOOLKuaiLe-Regular";
+  font-weight:100;
+}
+
+h2{
+  font-size:2em;
+  text-align:center;
+  font-family:"ZCOOLKuaiLe-Regular";
+  font-weight:100;
+}
+
+h3{
+  font-size:1.8em;
+  text-align:left;
+  font-family:"ZCOOLKuaiLe-Regular";
+  font-weight:100;
+}
+
+
+h4{
+  font-size:2em;
+  text-align:right;
+  font-family:"ZCOOLKuaiLe-Regular";
+  font-weight:100;
+}
+
+p{
+  font-size:1.5em;
+  text-align: left;
+  font-family:"ZCOOLKuaiLe-Regular";
+  font-weight:100;
+}
+
+img{
+  width:250px;
+  margin:auto;
+  transition: all 0.2s;
+  display:block;
+}
+#flower{
+  width:250px;
+  margin:auto;
+}
+#flower:hover{
+  opacity:0.15;
+  cursor:pointer;
+  transition: all 1s;
+
+}
+#hint{
+  text-align:center;
+  padding:25px;
+  margin:auto;
+}
+#container{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+#hideaway{
+  display:none;
+  width:700px;
+  margin:auto;
+  text-align:left;
+  transition: all 1s;
+}
+
+a{
+  color:white;
+}
+a:link {
+  text-decoration:none;
+  color:whie;
+}
+#hide{
+  text-align:center;
+  boder-style:solid;
+  border-color:white;
+  border-radius: 5px;
+  border-width:2px;
+}
+#sign{
+  float:left;
+  width:200px;
+  padding:20px;
+  display:inline-block;
+}
